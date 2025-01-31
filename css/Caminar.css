@@ -127,6 +127,11 @@ a {
     background-color: #eee;
     padding: 100px;
 }
+@media (max-width: 768px) {
+    .wrapper .text {
+        padding: 100px 60px;
+    }
+}
 .wrapper .text p {
     color: var(--p-color);
     margin-bottom: 32px;
@@ -226,6 +231,7 @@ a {
 @media (max-width: 992px) {
     .wrapper-style3 .content .info {
         width: 100%;
+        padding: 100px 60px;
     }
 }
 .wrapper-style3 .content .info .text h3 {
